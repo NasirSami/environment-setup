@@ -1,4 +1,4 @@
-# ROC I/Java Environment Setup Guide
+Java Environment Setup Guide
 ---
 
 ## Purpose
@@ -20,134 +20,6 @@ The following technologies are required in order to complete this phase of the p
 - **Apache Tomcat 8**: During this program, we will explore web development. As a result, we'll need a runtime environment for our web applications. Apache Tomcat provides a web server environment in which we can run our Java code so that we can easily and quickly deploy our web applications.
 - **Postman**: Postman is used for testing RESTful APIs. We'll use it to set up collections of tests for the RESTful APIs we design throughout the program. It can also be used to quickly test a single endpoint.
 - **Visual Studio Code (Optional)**: Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE. This tool is optional, but it can be helpful if you are new to programming and wish to familiarize yourself with the syntax of the Java programming language. 
-
-## Installation Methods
-
-There are two provided methods of attaining and configuring all of the necessary tools listed above:
-
-1. Via a *package manager* or command-line installer
-2. Manually downloading the necessary software
-
-Neither method is more "correct" than the other. You should choose the method of attaining the tools that works best for you. You may even choose to mix both methods, downloading some tools manually and others via a package manager.
-
-**NOTE**: This guide primarily is written for those on a Windows Machine. For Mac users [this guide](https://github.com/sophiagavrila/mac-install-guide) may be more helpful. 
-
-## Method 1: Installation Guide Using A Package Manager
-
-A *package manager* is a command line tool that allows you to install and manage software. You can use a package manager to install all of the software listed here.
-
-The package manager that we'll be using for this guide is called "Scoop". It's a command-line installer for Windows, which means that you'll have to be running Windows in order to use this tool. You'll also need PowerShell 5 (or a later version) installed.
-
-**Note**: If you are not running Windows and still want to use a package manager, feel free to do so. You'll have to, however, know how to use your package manager of choice as there won't be instructions provided here since there are many package managers available. **If you do not wish to use a package manager, please skip to method 2.**
-
-### Step 1: Install Scoop
-
-In order to use Scoop, you'll first have to install it. This installation requires that you have PowerShell 5 or later.
-
-Once you've verified that you have a compatible version of PowerShell, **launch PowerShell and run as administrator**. You can launch PowerShell by searching for it in the Windows search bar. Then, go to [Scoop's official website](https://scoop.sh/). Once on the homepage, scroll to the bottom of the page until you see the following:
-
-![Scoop instructions](./images/scoop-instructions.PNG)
-
-As Scoop's installation instructions indicate, you can run one of the following commands in PowerShell (but NOT both of them):
-
-Option 1:
-
-    Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-
-Option 2:
-
-    iwr -useb get.scoop.sh | iex
-
-If you run one of these commands and it fails, you'll need to first run the following command:
-
-    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-
-After you've run this command, you should then attempt to run one of the first two commands again.
-
-> If you are experiencing issues downloading Scoop, just use the Manual method which is outlined further down in this document.
-
-### Step 3: Configure Scoop
-
-When installed, Scoop comes with a default bucket titled "main". Since some of the programs we'll install using Scoop aren't contained in this bucket, we'll add some additional buckets before we begin installing our programs.
-
-Open a new terminal and run the following commands (one by one):
-
-    scoop bucket add extras
-    scoop bucket add java
-    scoop bucket add versions
-
-**Note**: If you receive a warning that says that the bucket you're attempting to add already exists, you don't have to worry as this means that you already have that bucket.
-
-### Step 4: Install Git
-
-Now that you've installed Scoop and added some additional buckets for downloading software, open a new terminal and run the following command in order to install Git:
-
-    scoop install git
-
-After the installation is complete, verify that you have installed Git properly by typing the following in your terminal:
-
-    git --version
-
-### Step 5: Install Java
-
-In order to install Java, run the following command in your terminal:
-
-    scoop install lessmsi; scoop config MSIEXTRACT_USE_LESSMSI $true
-
-Then run:
-
-    scoop install ojdkbuild8-full
-
-Java should have successfulls installed and scoop has configured your path variables.<br>
-Now verify that you have installed Java properly by typing this command:
-
-     java -version
-
-### Step 6: Install Spring Tool Suite 4
-
-In order to install Spring Tool Suite 4, run this command in your terminal:
-
-    scoop install sts
-
-If your installation was successful, you should now be able to search for "Spring Tool Suite" in your Windows search bar.
-
-### Step 7: Install Maven
-
-In order to install Maven, run the following command in your terminal:
-
-    scoop install maven
-
-Verify that your Maven installation was successful by typing the following:
-
-    mvn -version
-
-### Step 8: Install DBeaver
-
-In order to install DBeaver, run the following command in your terminal:
-
-    scoop install dbeaver
-
-You can verify that you have installed DBeaver properly by searching for "DBeaver" in your Windows search bar.
-
-### Step 9: Install Apache Tomcat
-
-In order to install Tomcat, run the following command in your terminal:
-
-    scoop install tomcat8
-
-Verify that you have installed Tomcat properly by running the following command:
-
-    echo %CATALINA_HOME%
-
-If the installation was successful, the directory to which you installed Tomcat should appear in the terminal.
-
-### Step 10: Install Postman
-
-In order to install Postman, run the following command in your terminal:
-
-    scoop install postman
-
-Verify that the program was installed properly by searching for "Postman" in your windows search bar.
 
 ### Step 11: Install PostgreSQL
 
@@ -461,9 +333,9 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/MVN-Version.jpg)
 
-### Step 5: Install PostgreSQL 10
+### Step 5: Install PostgreSQL 13
 
-In order to install PostgreSQL, please visit [PostgreSQL's official website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
+In order to install PostgreSQL, please visit [PostgreSQL's official download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 
 Once you've navigated to the website, you should see the following:
 
