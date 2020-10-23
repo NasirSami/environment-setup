@@ -3,7 +3,7 @@ Java Environment Setup Guide
 
 ## Purpose
 
-> This document provides a list of the required technologies for anyone who will be participating in the ROC I program. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup.
+> This document provides a list of the required technologies for anyone who will be participating in the Fullstack Java/Microservices batch. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup.
 
 **NOTE**: It is VERY important that you install these technologies before training begins as we will not have much time to devote to environment setup due to the volume of content we'll cover. It is also important that you install the correct versions of the tools listed here as not all versions of the technologies we will use are guaranteed to be compatible with each other. If you choose to use a different version of one of the tools listed here, you will be responsible for debugging issues that are specific to your version.
 
@@ -21,51 +21,7 @@ The following technologies are required in order to complete this phase of the p
 - **Postman**: Postman is used for testing RESTful APIs. We'll use it to set up collections of tests for the RESTful APIs we design throughout the program. It can also be used to quickly test a single endpoint.
 - **Visual Studio Code (Optional)**: Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE. This tool is optional, but it can be helpful if you are new to programming and wish to familiarize yourself with the syntax of the Java programming language. 
 
-### Step 11: Install PostgreSQL
-
-In order to install PostgreSQL, we will NOT be using Scoop as we require PostgreSQL 10, a version that is not currently supported by Scoop. That said, we will manually download the PostgreSQL installer visiting the [official website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
-
-Once you've navigated to the website, you should see the following:
-
-![Postgres Download Home](./images/postgres-download.PNG)
-
-Please look at the row for **version 10.13** as we will downloading this version. Select the download link which corresponds with your system and click it.
-
-You'll then be prompted to save the file. Click "Save File".
-
-![Save Postgres Installer](./images/save-postgres.PNG)
-
-The file should now be located in your "Downloads" folder.
-
-![Postgres In Downloads Folder](./images/postgres-in-downloads.PNG)
-
-Double click the file, which should launch the installer. You might be asked if you want the application to make changes to your device. Say "yes".
-
-You'll be presented with several menus in the Setup Wizard.
-
-![Postgres Setup Wizard](./images/postgres-setup.PNG)
-
-Hit "Next" until you get to the "Select Components" menu. Here, you'll want to select and/or deselect the following and then click "Next":
-
-![Postgres Components](./images/postgres-components.PNG)
-
-Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). The password is completely up to you. That said, DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager.
-
-![Postgres Password](./images/postgres-password.PNG)
-
-After you've decided on a password, hit "Next" on the remaining menus and allow time for Postgres to be installed. Once the installation is complete, you might be asked if you want to launch Stack Builder. You can say "no".
-
-PostgreSQL should now be successfully installed on your computer.
-
-### Step 12: Install Visual Studio Code (Optional)
-
-In order to install Visual Studio Code, run the following command in your terminal:
-
-    scoop install vscode
-
-If the installation was successful, you should be able to search for "Visual Studio Code" in the Windows search bar.
-
-## Method 2: Manual Installation
+## Manual Installation
 
 This method is compatible with all environments as it does not require any platform-specific package managers. You need only visit the official websites for each of the technologies listed and download the version of the tool that is compatible with your system.
 
@@ -76,9 +32,9 @@ The first thing you'll want to do is open your web browser of choice. This guide
 **Note**: Many of the tools that you will install have different system installers that are platform dependent. It is **very** important that you download the correct installer. The following list details how you should choose the installer for a program:
 
 - If you have a 32-bit version of Windows, use the installer that is marked as the 32-bit version.
-- If you have a 64-bit version of Windows, use the installer that is marked as the 64-bit version.
+- If you have a 64-bit version of Windows, use the installer that is marked as the 64-bit version. ***This is the most common and most likely what you will use***
 - If you have a Linux distribution (e.g. Debian, Ubuntu, Red Hat, Fedora), you should choose the installer that matches your distribution.
-- If you have a Mac, you should choose the installer that is marked as the Mac installer.
+- If you have a Mac, you should choose the installer that is marked as the Mac installer. **Please refer to the [Mac Install Guide]()**
 
 These options will be clearly labeled on the websites you visit to download the technologies. If you're not sure how to figure out what version of the Windows operating system you're running, do the following:
 
