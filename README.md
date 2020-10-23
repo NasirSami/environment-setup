@@ -1,5 +1,4 @@
 # Java Environment Setup Guide
----
 
 ## Purpose
 
