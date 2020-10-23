@@ -455,7 +455,7 @@ Upon double clicking the executable, the installer will be launched and the prog
 
 Note that you'll likely have to sign up for an account to use the application. Please do so as signing up for an account is completely free.
 
-### Step 9: Install Visual Studio Code (Optional)
+### Step 9: Install Visual Studio Code
 
 In order to download Visual Studio Code, please visit [Visual Studio Code's official website](https://code.visualstudio.com/download).
 
