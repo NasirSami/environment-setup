@@ -287,7 +287,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-End.jpg)
 
-16. Open Git Bash and type "mvn -v" then hit Enter. If that returns the maven version you have it set up correctly. 
+16. Open Git Bash and type "mvn -version" then hit Enter. If that returns the maven version you have it set up correctly. 
 
 ![](./images/MVN-Version.jpg)
 
