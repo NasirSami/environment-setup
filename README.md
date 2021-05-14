@@ -299,7 +299,7 @@ Once you've navigated to the website, you should see the following:
 
 ![Postgres Download Home](./images/postgres-download.PNG)
 
-Please look at the row for **version 10.13** as we will downloading this version. Select the download link which corresponds with your system and click it.
+Please look at the row for **version 13** as we will downloading this version. Select the download link which corresponds with your system and click it.
 
 You'll then be prompted to save the file. Click "Save File".
 
@@ -319,7 +319,9 @@ Hit "Next" until you get to the "Select Components" menu. Here, you'll want to s
 
 ![Postgres Components](./images/postgres-components.PNG)
 
-Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). The password is completely up to you. That said, DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager.
+Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). The password is completely up to you. **DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager.**
+
+#### ❗ ❗ DO NOT FORGET YOUR POSTGRES PASSWORD ❗ ❗
 
 ![Postgres Password](./images/postgres-password.PNG)
 
