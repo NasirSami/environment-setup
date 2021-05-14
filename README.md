@@ -293,13 +293,9 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ### Step 5: Install PostgreSQL 13
 
-In order to install PostgreSQL, please visit [PostgreSQL's official download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
+In order to install PostgreSQL, please visit [PostgreSQL's official download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads). *This site will direct you to Postgres' certified installer.*
 
-Once you've navigated to the website, you should see the following:
-
-![Postgres Download Home](./images/postgres-download.PNG)
-
-Please look at the row for **version 13** as we will downloading this version. Select the download link which corresponds with your system and click it.
+Please look at the row for **version 13.x** as we will downloading this version. Select the download link which corresponds with your system and click it.
 
 You'll then be prompted to save the file. Click "Save File".
 
