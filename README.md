@@ -77,7 +77,9 @@ You should now see the following screen:
 
 You should see your operating system listed ("Windows 10" in the above example) and the system type listed under the "System" tab (a 64-bit operating system in the above example).
 
-### Step 1: Install Git
+<br>
+
+## Step 1: Install Git
 
 1. Navigate in your browser to [Git's Website](https://git-scm.com/download) and click the latest download for Windows. (For those using a different OS click the appropriate OS and look for the most recent stable release.)
 
