@@ -4,6 +4,8 @@
 
 **NOTE**: It is VERY important that you install these technologies before training begins as we will not have much time to devote to environment setup due to the volume of content we'll cover. It is also important that you install the correct versions of the tools listed here as not all versions of the technologies we will use are guaranteed to be compatible with each other. If you choose to use a different version of one of the tools listed here, you will be responsible for debugging issues that are specific to your version.
 
+> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
+
 <br>
 
 ## Required Technologies
@@ -46,7 +48,7 @@ The following technologies are required in order to complete this phase of the p
 
 <br>
 
-> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 
+> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
 
 <br>
 
