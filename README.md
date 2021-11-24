@@ -48,6 +48,10 @@ The following technologies are required in order to complete this phase of the p
 
 <br>
 
+- [**Docker**](#step-10-install-docker): Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+
+<br>
+
 > ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
 
 <br>
@@ -530,6 +534,12 @@ At this point, the value of the CATALINA_HOME environment variable should be dis
 
 <br>
 
+## Step 10: Install Docker
+Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+
+Go [here to download Docker Desktop](https://www.docker.com/products/docker-desktop) 👈
+
+<br>
 
 Additional Resources
 ====================
