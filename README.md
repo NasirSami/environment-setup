@@ -364,7 +364,7 @@ Hit "Next" until you get to the "Select Components" menu. Here, you'll want to s
 
 Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). The password is completely up to you. **DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager.**
 
-#### ❗ ❗ DO NOT FORGET YOUR POSTGRES PASSWORD ❗ ❗
+## ❗ ❗ DO NOT FORGET YOUR POSTGRES PASSWORD ❗ ❗
 
 ![Postgres Password](./images/postgres-password.PNG)
 
@@ -382,9 +382,9 @@ Once you navigate to the website, you should see the following:
 
 ![DBeaver Home](./images/dbeaver-home.PNG)
 
-You'll notice that there are two options: Community Edition and Enterprise Edition. Please select the **Community Edition** as it is free. Do NOT select the Enterprise as it is not free.
+Once you click it, you'll notice that there are two options: Community Edition and Enterprise Edition. Please select the **Community Edition** as it is free. Do NOT select the Enterprise Edition.
 
-You will find the installers for the Community Edition if you scroll down the page. They should be located directly beneath the the box which says "Community Edition 7.1.1". As with all other software listed here, please make sure that you choose the correct installer for your system.
+You will find the installers for the Community Edition if you scroll down the page. They should be located directly beneath the the box which says "Community Edition 21.X.X". As with all other software listed here, please make sure that you choose the correct installer for your system. If you're on Windows, you'll most likely click **Windows 64 bit installer**.
 
 Once you've clicked on the installer that is compatible with your system, you'll be prompted to save the file. Save it and note where you've saved it on your machine. These files are usually stored in your computer's "Downloads" folder by default.
 
@@ -394,13 +394,15 @@ Now navigate to the folder where the installer is stored. For this example, we'v
 
 ![Installer In Downloads Folder](./images/dbeaver-download.PNG)
 
-Double click the installer. Once you've done so, the installer will be launched. The installer should take you through the process of setting up DBeaver. You'll be asked, for instance, to select a language of choice and review license terms before you install the software.
+Double click the installer. Once you've done so, the installer will be launched. The installer should take you through the process of setting up DBeaver. You'll be asked, for instance, to select a language of choice and review license terms before you install the software. 
 
-![DBeaver License Agreement](./images/dbeaver-license.PNG)
+**When you're prompted to "Choose Users", you may select "For me (...)".**
 
-When you arrive at the portion of the setup which is titled "Choose Components", please select "DBeaver Community" and "Associate .SQL files".
+When you arrive at the portion of the setup which is titled "Choose Components", please select "DBeaver Community", **"Inlcude Java**, and "Associate .SQL files".
 
 ![DBeaver Components](./images/dbeaver-components.PNG)
+
+Click next, then click "Install", then click "Finish".
 
 If your installation was successful, you should now be able to search for and find "DBeaver" using your computer's search bar.
 
