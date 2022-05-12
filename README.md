@@ -1,4 +1,5 @@
 # Java Environment Setup Guide
+*Authors: Tim Gattie, Christina Russ, Sophia Gavrila*
 
 > *This document provides a list of the required technologies for anyone who will be participating in the Fullstack Java batch. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup.*
 
