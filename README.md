@@ -5,7 +5,7 @@
 
 **NOTE**: It is VERY important that you install these technologies before training begins as we will not have much time to devote to environment setup due to the volume of content we'll cover in week 1.
 
-> ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
+> 🔴 Important! If you are on a Mac, please follow the environment guidelines in the [Mac Environment Setup Guide](https://github.com/sophiagavrila/mac-install-guide). 
 
 <br>
 
