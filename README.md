@@ -363,9 +363,12 @@ Hit "Next" until you get to the "Select Components" menu. Here, you'll want to s
 
 ![Postgres Components](./images/postgres-components.PNG)
 
-Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). The password is completely up to you. **I reccomend making it `postgres`**  -- **DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager.**
+Continue to hit "Next" until you reach the "Password" menu. Here you will be tasked with providing a password for the default Postgres user (which is "postgres"). 
 
-## ❗ ❗ DO NOT FORGET YOUR POSTGRES PASSWORD ❗ ❗
+> Do *not* make this a password you use anywhere else. **I RECCOMEND MAKING IT `postgres`** <br>
+> **DO NOT forget your password as you won't be able to login to your database as the superuser. If you have to, write your password down somewhere or use a password manager. It would be easiest if you just make the password `postgres`**
+
+## ❗ ❗ DO NOT FORGET YOUR POSTGRES PASSWORD AND DON'T MAKE IT A COMMON PASSWORD YOU TYPICALLY USE ❗ ❗
 
 ![Postgres Password](./images/postgres-password.PNG)
 
