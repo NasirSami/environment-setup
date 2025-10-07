@@ -9,7 +9,8 @@ public class SmsService implements MessageService {
     private String messageBody;
 
     public SmsService() {
-        // Default constructor keeps the class compatible with setter injection.
+        this.phoneNumber = "+15555551234";
+        this.messageBody = "Switching to SMS simply replaces the injected service.";
     }
 
     public void setPhoneNumber(String phoneNumber) {

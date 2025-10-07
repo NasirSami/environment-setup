@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="creditCardPaymentService" class="com.example.payment.CreditCardPaymentService" scope="singleton"/>
+
+    <bean id="paypalPaymentService" class="com.example.payment.PaypalPaymentService" scope="prototype"/>
+
+    <bean id="creditCardProcessor" class="com.example.payment.PaymentProcessor" scope="singleton">
+        <property name="paymentService" ref="creditCardPaymentService"/>
+    </bean>
+
+    <bean id="paypalProcessor" class="com.example.payment.PaymentProcessor" scope="prototype">
+        <property name="paymentService" ref="paypalPaymentService"/>
+    </bean>
+
+</beans>

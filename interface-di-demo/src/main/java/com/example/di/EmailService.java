@@ -9,7 +9,8 @@ public class EmailService implements MessageService {
     private String messageBody;
 
     public EmailService() {
-        // Default constructor allows the service to be created before details are supplied.
+        this.recipientAddress = "support@example.com";
+        this.messageBody = "Setter injection keeps this email loosely coupled.";
     }
 
     public void setRecipientAddress(String recipientAddress) {

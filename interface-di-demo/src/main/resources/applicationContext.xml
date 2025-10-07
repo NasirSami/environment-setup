@@ -2,18 +2,16 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+                           https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="emailService" class="com.example.di.EmailService">
         <property name="recipientAddress" value="support@example.com" />
-        <property name="messageBody"
-                  value="Setter injection keeps this email loosely coupled." />
+        <property name="messageBody" value="Setter injection keeps this email loosely coupled." />
     </bean>
 
     <bean id="smsService" class="com.example.di.SmsService">
         <property name="phoneNumber" value="+15555551234" />
-        <property name="messageBody"
-                  value="Switching to SMS simply replaces the injected service." />
+        <property name="messageBody" value="Switching to SMS simply replaces the injected service." />
     </bean>
 
     <bean id="notificationClient" class="com.example.di.NotificationClient">
