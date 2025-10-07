@@ -1,0 +1,9 @@
+# Maven build output
+**/target/
+
+# Generated IDE settings
+.idea/
+.vscode/
+
+# macOS artifacts
+.DS_Store
