@@ -1,0 +1,19 @@
+server:
+  port: 8085
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+info:
+  application:
+    name: Spring Boot Actuator Demo
+    trainer: Nasir
+    environment: local
